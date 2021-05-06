@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Exercise 1",
+      "setup": "",
+      "run": "mvn -Dtest='*ValidatorTest' test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2.5
+    },
+    {
+      "name": "Exercise 2",
+      "setup": "",
+      "run": "mvn -Dtest='*CleanerTest' test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2.5
+    },
+    {
+      "name": "Exercise 3",
+      "setup": "",
+      "run": "mvn -Dtest='find*Test' test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2.5
+    },
+    {
+      "name": "Exercise 4",
+      "setup": "",
+      "run": "mvn -Dtest='*ParserTest' test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2.5
+    }
+  ]
+}
