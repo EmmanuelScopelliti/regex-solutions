@@ -1,6 +1,6 @@
 ## Exercise 4: Parser
 
-Implement, using regular expressions, the seven methods of the [`Parser`](Parse.java) class, all of which extract specific information from a citation of a journal paper formatted in the [APA style](https://en.wikipedia.org/wiki/APA_style).
+Implement, using regular expressions, the seven methods of the [`Parser`](Parser.java) class, all of which extract specific information from a citation of a journal paper formatted in the [APA style](https://en.wikipedia.org/wiki/APA_style).
 
 - `String extractAuthors(String citation)`
 - `String extractYear(String citation)`
@@ -24,5 +24,5 @@ The methods should return:
 - Number: `"4"`
 - Pages: `[324, 362]`
 
-Your code should pass all tests defined in [`ZeroToOneHunderedFinderTest`](../../../test/java/ex3/ZeroToOneHunderedFinderTest.java) and [`AlternatingBitsFinderTest`](../../../test/java/ex3/AlternatingBitsFinderTest.java).
+Your code should pass all tests defined in [`AuthorParserTest`](../../../test/java/ex4/AuthorParserTest.java), [`YearParserTest`](../../../test/java/ex4/YearParserTest.java), [`TitleParserTest`](../../../test/java/ex4/TitleParserTest.java), [`JournalTitleParserTest`](../../../test/java/ex4/JournalTitleParserTest.java), [`VolumeParserTest`](../../../test/java/ex4/VolumeParserTest.java), [`NumberParserTest`](../../../test/java/ex4/NumberParserTest.java), and [`PagesParserTest`](../../../test/java/ex4/PagesParserTest.java).
  
