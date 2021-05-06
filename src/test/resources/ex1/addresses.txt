@@ -1,0 +1,36 @@
+Valid addresses:
+
+Piazza Università, 1, 39100 Bolzano BZ
+Piazza Domenicani, 3, 39100 Bozen-Bolzano BZ
+Via Alessandro Volta, 13, 39100 Bolzano BZ
+Via Calepina, 14, 38122 Trento TN
+Via Calepina 14, 38122 Trento TN
+Via Calepina, 14 38122 Trento TN
+Via Calepina 14 38122 Trento TN
+Viale Verona, 187, 38123 Trento TN
+Corso 3 Novembre 1918, 130, 38122 Trento TN
+Piazza del Colosseo, 1, 00184 Roma RM
+Piazza di Santa Maria delle Grazie, 2, 20123 Milano MI
+Via Bolzano, 1a, 38121 Trento TN".
+
+Invalid addresses
+
+Calepina, 14, 38122 Trento TN
+Via, 14, 38122 Trento TN
+Via Calepina, 38122 Trento TN
+Via Calepina, 14, Trento TN
+Via Calepina, 14, 38122 TN
+Via Calepina, 14, 38122 Trento
+Via Calepina, , 38122 Trento TN
+Via Calepina, 14, Trento TN
+Via Calepina, 14, 38122 TN
+Via Calepina, 14, 38122 Trento 
+, 14, 38122 Trento TN
+Street Calepina, 14, 38122 Trento TN
+V. Calepina, 14, 38122 Trento TN
+via Calepina, 14, 38122 Trento TN
+Via Calepina, 14, 381222 Trento TN
+Via Calepina, 14, 38122 Trento TRENTO
+Via Calepina, 14, 38122 Trento tn
+Via Bolzano, a1, 38121 Trento TN
+Via Bolzano, 1a1, 38121 Trento TN

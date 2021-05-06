@@ -23,7 +23,7 @@
     {
       "name": "Exercise 3",
       "setup": "",
-      "run": "mvn --no-transfer-progress -Dtest='find*Test' test",
+      "run": "mvn --no-transfer-progress -Dtest='*FinderTest' test",
       "input": "",
       "output": "",
       "comparison": "included",

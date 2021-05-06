@@ -4,7 +4,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static com.google.common.truth.Truth.assertThat;
-import static ex4.CitationParser.extractJournalTitle;
+import static ex4.Parser.extractJournalTitle;
 
 class JournalTitleParserTest {
 

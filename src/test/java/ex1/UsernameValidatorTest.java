@@ -28,9 +28,9 @@ class UsernameValidatorTest {
   }
 
   @Test
-  @DisplayName("Should validate mybigusername")
-  void shouldAcceptMybigusername() {
-    shouldAccept("mybigusername");
+  @DisplayName("Should validate mybigusrname")
+  void shouldAcceptMybigusrname() {
+    shouldAccept("mybigusrname");
   }
 
   @Test
@@ -76,56 +76,68 @@ class UsernameValidatorTest {
   }
 
   @Test
-  @DisplayName("Should not validate \"\"")
+  @DisplayName("Should reject \"\"")
   void shouldNotValidateEmptyString() {
     shouldReject("");
   }
 
   @Test
-  @DisplayName("Should not validate null")
+  @DisplayName("Should reject null")
   void shouldNotValidateNull() {
     shouldReject(null);
   }
 
   @Test
-  @DisplayName("Should not validate my user")
+  @DisplayName("Should reject my user")
   void shouldRejectmyspaceuser() {
     shouldReject("my user");
   }
 
   @Test
-  @DisplayName("Should not validate _myuser")
+  @DisplayName("Should reject _myuser")
   void shouldReject() {
     shouldReject("_myuser");
   }
 
   @Test
-  @DisplayName("Should not validate 1aaa")
+  @DisplayName("Should reject 1aaa")
   void shouldReject1aaa() {
     shouldReject("1aaa");
   }
 
   @Test
-  @DisplayName("Should not validate m")
+  @DisplayName("Should reject m")
   void shouldRejectM() {
     shouldReject("m");
   }
 
   @Test
-  @DisplayName("Should not validate my")
+  @DisplayName("Should reject my")
   void shouldRejectMy() {
     shouldReject("my");
   }
 
   @Test
-  @DisplayName("Should not validate myuser$")
+  @DisplayName("Should reject myuser$")
   void shouldRejectMyuser$() {
     shouldReject("myuser$");
   }
 
   @Test
-  @DisplayName("Should not validate my#user")
+  @DisplayName("Should reject my#user")
   void shouldRejectMyhashuser() {
     shouldReject("my#user");
+  }
+  
+  @Test
+  @DisplayName("Should reject onecharextra1")
+  void shouldRejectOnecharextra1() {
+    shouldReject("onecharextra1");
+  }
+
+  @Test
+  @DisplayName("Should reject thisusernameistoolong")
+  void shouldRejectThisusernameistoolong() {
+    shouldReject("thisusernameistoolong");
   }
 }

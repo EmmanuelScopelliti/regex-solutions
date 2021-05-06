@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import static com.google.common.truth.Truth.assertThat;
 import static ex3.Finder.findZeroToOneHundred;
 
-class findZeroToOneHundredTest {
+class ZeroToOneHundredFinderTest {
 
   @Test
   void shouldReturn20() {

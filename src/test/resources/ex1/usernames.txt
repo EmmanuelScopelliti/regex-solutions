@@ -1,0 +1,24 @@
+Valid usernames:
+
+myuser
+myu
+mybigusrname
+my_user
+my.user
+my@user
+myUser
+MyUser
+M1User
+myuser99
+
+Invalid usernames:
+
+my user
+_myuser
+1aaa"
+m
+my
+myuser$
+my#user
+onecharextra1
+thisusernameistoolong
