@@ -7,5 +7,5 @@ Implement, using regular expressions, the two methods of the [`Finder`](Finder.j
 
 Read the description of each method and its associated tests for details on its expected behavior.
 
-Your code should pass all tests defined in [`ZeroToOneHunderedFinderTest`](../../../test/java/ex3/ZeroToOneHunderedFinderTest.java) and [`AlternatingBitsFinderTest`](../../../test/java/ex3/AlternatingBitsFinderTest.java).
+Your code should pass all tests defined in [`ZeroToOneHundredFinderTest`](../../../test/java/ex3/ZeroToOneHundredFinderTest.java) and [`AlternatingBitsFinderTest`](../../../test/java/ex3/AlternatingBitsFinderTest.java).
  
