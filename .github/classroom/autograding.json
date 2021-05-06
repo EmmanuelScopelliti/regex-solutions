@@ -3,7 +3,7 @@
     {
       "name": "Exercise 1",
       "setup": "",
-      "run": "mvn -Dtest='*ValidatorTest' test",
+      "run": "mvn --no-transfer-progress -Dtest='*ValidatorTest' test",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -13,7 +13,7 @@
     {
       "name": "Exercise 2",
       "setup": "",
-      "run": "mvn -Dtest='*CleanerTest' test",
+      "run": "mvn --no-transfer-progress -Dtest='*CleanerTest' test",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -23,7 +23,7 @@
     {
       "name": "Exercise 3",
       "setup": "",
-      "run": "mvn -Dtest='find*Test' test",
+      "run": "mvn --no-transfer-progress -Dtest='find*Test' test",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -33,7 +33,7 @@
     {
       "name": "Exercise 4",
       "setup": "",
-      "run": "mvn -Dtest='*ParserTest' test",
+      "run": "mvn --no-transfer-progress -Dtest='*ParserTest' test",
       "input": "",
       "output": "",
       "comparison": "included",
