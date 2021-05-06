@@ -32,7 +32,8 @@ public class Cleaner {
   }
 
   /**
-   * Returns a copy of the input string without repeated words in a sequence.
+   * Returns a copy of the input string without repeated words in a sequence. This operation is
+   * case-sensitive.
    *
    * <p>For instance, from "This is is is an an example" this method returns "This is an example".
    */

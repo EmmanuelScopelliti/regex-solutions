@@ -1,0 +1,20 @@
+Should remove duplicates
+
+1. What is is my purpose?
+2. What is is is my purpose?
+3. What is is is is my purpose?
+4.
+5. Oh my god
+god...
+6. Oh my god   god...
+7. Yeah, welcome to the club, pal pal pal pal.
+8. Yeah Yeah, welcome to the club, pal.
+
+Should return the same text
+
+9. You pass butter.
+10. You pass Pass butter.
+11. Oh my godgod...
+12. Oh my god,god...
+13. Oh my goodgod god...
+14. Oh my god goddy...

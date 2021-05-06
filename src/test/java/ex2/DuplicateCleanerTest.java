@@ -27,14 +27,14 @@ class DuplicateCleanerTest {
 
   @Test
   void shouldNotRemoveDuplicateLetters() {
-    String text = "You pass butter?";
-    assertThat(cleanDuplicates(text)).isEqualTo("You pass butter?");
+    String text = "You pass butter.";
+    assertThat(cleanDuplicates(text)).isEqualTo("You pass butter.");
   }
 
   @Test
   void shouldNotRemoveOnDifferentCapitalization() {
-    String text = "You pass Pass butter?";
-    assertThat(cleanDuplicates(text)).isEqualTo("You pass Pass butter?");
+    String text = "You pass Pass butter.";
+    assertThat(cleanDuplicates(text)).isEqualTo("You pass Pass butter.");
   }
 
   @Test

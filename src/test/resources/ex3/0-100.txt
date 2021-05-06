@@ -1,0 +1,6 @@
+Sam has 200 apples. He gives Todd 20 and Mary 125.
+The weather is -5 C today, but will be +5 C tomorrow.
+Process finished with exit code 0.
+Did you know that water boils at 100 degrees at standard atmospheric pressure?
+I'm using openjdk15 my project.
+There are 50 students in my class, out of which 30 attend the lectures.
